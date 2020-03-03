@@ -14,5 +14,8 @@ require 'frequencies'
       it "Given a set of sound waves, when the frequency outside the lower limit is passed, then the frequencies should return the lower limit" do
         expect(subject.soundwave([20],40,1000)).to eq [40]
       end
+      it "Given a set of sound waves, when the frequency outside the lower limit is passed, then return the lower limits if both the soundwaves are under the limits" do
+        expect(subject.soundwave([10,20],40,1000)).to eq [40,40]
+      end
     end
   end

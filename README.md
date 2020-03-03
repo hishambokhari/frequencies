@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frequencies
 
 # How to install:
@@ -54,3 +55,5 @@
 # Fifth test --> expect(subject.soundwave([10,20],40,1000)).to eq '[40,40]' - two soundwaves under the lower limit -
 
 # Sixth test --> expect(subject.soundwave([1100,1200],40,1000)).to eq '[1000,1000] - two sound waves over the upper limit -
+
+

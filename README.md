@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Frequencies
 
 # How to install:

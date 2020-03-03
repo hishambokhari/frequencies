@@ -3,6 +3,9 @@ class Frequencies
     new_inputs = input.map do |num|
       if num > upper_limit
         upper_limit
+      elsif 
+        num < lower_limit
+        lower_limit
       else
         num
       end
